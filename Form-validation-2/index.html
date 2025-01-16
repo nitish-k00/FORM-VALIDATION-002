@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="div">
+      <div class="box">
+        <div class="box1">
+          <label for="user-id">User id</label>
+          <input type="text" id="user-id" name="id" /><br />
+          <span id="id"></span><br />
+          <label for="pass">Password</label>
+          <input type="text" id="pass" name="password" /><br />
+          <span id="pa"></span><br />
+          <label for="names">Name</label>
+          <input type="text" id="names" name="name" /><br />
+          <span id="na"></span><br />
+          <label for="address">Address</label>
+          <input type="text" id="address" name="address" /><br />
+          <span id="add"></span><br />
+
+          <label for="zip">Pin-Code</label>
+          <input type="text" id="zip" name="zip" /><br />
+          <span id="zi"></span><br />
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" /><br />
+          <span id="mail"></span><br />
+        </div>
+        <div class="box2">
+          <label for="country">Country</label>
+          <select name="country" id="country">
+            <option selected="" value="Default">Please select a country</option>
+            <option value="AF">Australia</option>
+            <option value="AL">Canada</option>
+            <option value="DZ">India</option>
+            <option value="AS">Russia</option>
+            <option value="AD">USA</option></select
+          ><br />
+          <span id="coun"></span><br />
+          <label for="gender">Gender</label>
+          <input type="radio" id="male" name="gender" value="male" />
+          <span for="male">male</span>
+          <input type="radio" id="female" name="gender" />
+          <span for="female">female</span><br />
+
+          <span id="gen"></span><br />
+          <label for="language">Language</label>
+          <input type="checkbox" name="eng" value="eng" /><span>english</span>
+          <input type="checkbox" name="eng" value="non-eng" /><span
+            >non-english</span
+          >
+          <br />
+          <span id="eng"></span><br />
+          <label for="about">About</label><br />
+          <textarea name="desc" id="about"></textarea> <br />
+          <div class="btn">
+            <button onclick="validation()">submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
